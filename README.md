@@ -89,6 +89,10 @@ To learn more about Next.js, Firebase, and Firestore, refer to the following res
 
 - [Firestore Documentation](https://firebase.google.com/docs/firestore) - Learn about Firestore, Firebase's real-time database.
 
+## Deployed App
+
+You can check out the deployed app [here](https://to-dos-app-opal.vercel.app).
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the Vercel platform from the creators of Next.js. Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
