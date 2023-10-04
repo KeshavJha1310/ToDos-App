@@ -23,7 +23,13 @@ const LoginForm = () => {
     const router = useRouter();
     useEffect(()=>{
     if(!isLoading && authUser){
+        console.log("isLoading:", isLoading);
+        console.log("authUser:", authUser);
+        console.log("changing the page")
             router.push("/")
+        }else{
+            console.log("isLoading:", isLoading);
+            console.log("authUser:", authUser);
         }
     },[authUser,isLoading]);
     const loginHandler = async () => {
